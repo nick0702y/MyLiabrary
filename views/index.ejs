@@ -1,1 +1,8 @@
-middle_withMongo
+<h2>Recently Added</h2>
+<!--Recent Books Access -->
+<div>
+    <% books.forEach(book => { %> 
+        <img height="150" width="100" 
+        src="<%= book.coverImagePath %>">
+    <% }) %>
+</div>
