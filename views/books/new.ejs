@@ -1,5 +1,7 @@
 <h2>New Books</h2>
-<form action="/books" method="POST" enctype="multipart/form-data">
+<!--<form action="/books" method="POST" enctype="multipart/form-data"> 
+    // Multipart is not used as we using FilePond to directly post images to database-->
+    <form action="/books" method="POST"></form>
     <%- include('_form_fields') %> 
     <a href="/books">Cancel</a>
     <button type="submit">Create</button>
